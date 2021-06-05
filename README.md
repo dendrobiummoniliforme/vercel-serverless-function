@@ -48,3 +48,19 @@ This is independent of Vercel and is utilizing `jest` framework.
 1. `npm run test`.
 
 Runs all **test suites**. There is only 1 test by default. Output
+```sh
+➜ npm run test
+
+> vercel-serverless-function@1.0.0 test
+> jest
+
+ PASS  test/Model.test.ts
+  get() =>
+    ✓ SHOULD return "TEST" (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.816 s, estimated 2 s
+Ran all test suites.
+```
