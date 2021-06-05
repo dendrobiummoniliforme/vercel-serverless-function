@@ -1,0 +1,34 @@
+{
+  "name": "vercel-serverless-function",
+  "version": "1.0.0",
+  "description": "Template Serverless Functions with Vercel Deployments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dendrobiummoniliforme/software-as-a-service.git"
+  },
+  "keywords": [
+    "Serverless",
+    "Functions",
+    "Vercel"
+  ],
+  "author": "dendrobiummoniliforme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dendrobiummoniliforme/software-as-a-service/issues"
+  },
+  "homepage": "https://github.com/dendrobiummoniliforme/software-as-a-service#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/jest-when": "^2.7.2",
+    "@vercel/node": "^1.11.0",
+    "jest": "^27.0.1",
+    "jest-when": "^3.3.1",
+    "ts-jest": "^27.0.0",
+    "typescript": "^3.9.3"
+  }
+}
